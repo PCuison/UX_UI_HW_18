@@ -244,3 +244,82 @@ body {
     background-color: #555555;
     color: white;
   }
+
+  /* styles for Skills section*/
+
+  h1 {
+    text-align: center;
+  }
+
+  div {
+    column-gap: 10px;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+   
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 10px;
+    flex: 50%;
+    border: #ccc solid 2px;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+  /* My work section 
+
+
+#work-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+} */
+  
+.wrapper{
+  margin: 10px auto;
+  width: 100%;
+  padding: 20px;
+}
+
+
+ .wrapper img {
+    max-width: 320px;
+    float: left;
+    margin-right: 15px;
+    
+  }
+
+.text-box {
+  color: #111;
+  text-align: left;
+}
+
+.text-box h2 {
+  font-size: 22px;
+  
+}
+
+.text-box p{
+  font-size: 16px;
+}
+
