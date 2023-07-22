@@ -231,11 +231,12 @@ body {
     border-radius: 8px;
     color: #555555;
     padding: 16px 32px;
+    margin: 4px 2px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+   
     transition-duration: 0.4s;
     cursor: pointer;
   }
@@ -266,7 +267,7 @@ body {
   
   .flex-item-left {
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     flex: 50%;
     border: #ccc solid 2px;
