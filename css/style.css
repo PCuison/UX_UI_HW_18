@@ -132,8 +132,11 @@ body {
   .text {
     font-size: 16px;
     padding: 20px;
+  }
 
   
+  .text h1 {
+  text-align: left;
   }
 
 
@@ -201,9 +204,11 @@ body {
     margin: 0 auto;
     font: 500 100%/1.5 system-ui;
   }
+  
   img {
     max-width: 100%;
     height: auto;
+  
   }
 
    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -211,6 +216,7 @@ body {
     .column {
       width: 100%;
     }
+
   }
 
   @media (max-width: 650px) {
@@ -223,8 +229,8 @@ body {
       margin: -1rem 0 2rem 1rem;
       padding: 1rem;
       background: rgba(white, 0.8);
-    }
-  }
+     }
+   }
 
   .button {
     background-color: rgba(255,255,255,0.4);
@@ -238,9 +244,9 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-   
     transition-duration: 0.4s;
     cursor: pointer;
+    
   }
   
   .button:hover {
@@ -265,11 +271,6 @@ body {
     text-align: center;
     width: 100%;
    
-  }
-  
-  .text h1 {
-  text-align: left;
-
   }
 
   
@@ -300,6 +301,7 @@ body {
     .text h1 {
     padding-left: 35px;
     }
+    
   }
   
   .flex-item-left p {
