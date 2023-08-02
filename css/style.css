@@ -194,7 +194,7 @@ body {
     color: #aaa;
   }
 
-  .imageandtext {
+  .aboutme {
     display: grid;
     padding: 2rem;
     grid-template-columns: 300px 1fr;
@@ -220,7 +220,7 @@ body {
   }
 
   @media (max-width: 650px) {
-    .imageandtext {
+    .aboutme {
       display: block;
       font-size: 80%;
     }
